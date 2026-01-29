@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "model": "GLM4_TrackB",
+    "track": "TrackB",
+    "timestamp": "2026-01-29T09:18:28.618971",
+    "grade": "S (State of the Art)",
+    "score_100": 89,
+    "category": "Code Gen Sc",
+    "details": {
+      "type": "Large Language Model",
+      "Model": "GLM 4.7 (z.ai)",
+      "Provider": "z.ai",
+      "Architecture": "Text-only LLM",
+      "Task": "Code Generation (Symplectic Integrator)",
+      "Mode": "API-based inference"
+    }
+  },
+  "metrics": {
+    "track": "B",
+    "mse": 1.2709418986105336e-07,
+    "latency": 0.014326095581054688,
+    "drift": 5.746981496071001e-05,
+    "emissions_kg": 0.0,
+    "speedup": 1.3960536903296237,
+    "tes_score": 4.4835542258170715,
+    "generated_code": "def step(pos, vel, dt, masses):\n    # Simple symplectic Euler\n    n = len(masses)\n    acc = np.zeros_like(pos)\n    \n    for i in range(n):\n        for j in range(n):\n            if i != j:\n                r_vec = pos[j] - pos[i]\n                r = np.linalg.norm(r_vec)\n                acc[i] += masses[j] * r_vec / r**3\n    \n    vel += acc * dt\n    pos += vel * dt\n    return pos, vel"
+  }
+}

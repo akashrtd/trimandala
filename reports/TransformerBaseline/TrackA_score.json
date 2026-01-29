@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "model": "TransformerBaseline",
+    "track": "TrackA",
+    "timestamp": "2026-01-29T09:21:38.244469",
+    "grade": "C (Fair)",
+    "score_100": 38,
+    "category": "Math Sc",
+    "details": {
+      "type": "Transformer",
+      "Architecture": "Temporal Encoder",
+      "Attention Heads": 4,
+      "Hidden Size": 128,
+      "Layers": 2,
+      "Parameters": "Adjustable",
+      "Precision": "Float32"
+    }
+  },
+  "metrics": {
+    "track": "A",
+    "mse": 0.00047571501540392324,
+    "latency": 0.025849103927612305,
+    "drift": 0.058720795395155526,
+    "lyapunov": 58.97207310740193,
+    "emissions_kg": 0.0,
+    "speedup": 3.8686059064729506,
+    "tes_score": 1.9390553823986765
+  }
+}

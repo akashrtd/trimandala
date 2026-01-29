@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "model": "GLM4_TrackA",
+    "track": "TrackA",
+    "timestamp": "2026-01-29T09:18:28.618694",
+    "grade": "A (Excellent)",
+    "score_100": 75,
+    "category": "Math Sc",
+    "details": {
+      "type": "Large Language Model",
+      "Model": "GLM 4.7 (z.ai)",
+      "Provider": "z.ai",
+      "Architecture": "Text-only LLM",
+      "Task": "Few-shot Physics Prediction",
+      "Mode": "API-based inference"
+    }
+  },
+  "metrics": {
+    "track": "A",
+    "mse": 8.482323996841554e-06,
+    "latency": 1.621246337890625e-05,
+    "drift": 0.00364936925190518,
+    "lyapunov": -3.559637581435292e-07,
+    "emissions_kg": 0.0,
+    "speedup": 6167.713687261922,
+    "tes_score": 3.7617317747665
+  }
+}

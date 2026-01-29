@@ -2,9 +2,9 @@
   "metadata": {
     "model": "LSTMBaseline",
     "track": "TrackA",
-    "timestamp": "2026-01-28T23:35:38.330722",
+    "timestamp": "2026-01-29T09:21:38.244283",
     "grade": "B (Good)",
-    "score_100": 52,
+    "score_100": 53,
     "category": "Math Sc",
     "details": {
       "type": "Recurrent Neural Network",
@@ -18,11 +18,11 @@
   "metrics": {
     "track": "A",
     "mse": 0.00011639381407899492,
-    "latency": 0.013293981552124023,
+    "latency": 0.00710296630859375,
     "drift": 0.007366363787526491,
     "lyapunov": 0.0,
     "emissions_kg": 0.0,
-    "speedup": 7.52220033446807,
-    "tes_score": 2.601995754164693
+    "speedup": 14.078623152187655,
+    "tes_score": 2.6564388118859315
   }
 }
