@@ -19,7 +19,7 @@ class BenchmarkTask:
     track: str  # "A", "B", or "C"
     dataset: str
     model_details: Dict
-    kwargs: Dict = None
+    kwargs: Optional[Dict] = None
 
 
 class BenchmarkRunner:

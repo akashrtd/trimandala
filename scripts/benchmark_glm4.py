@@ -11,7 +11,7 @@ import json
 import time
 import requests
 import numpy as np
-from typing import Tuple
+from typing import Tuple, Optional, Union, Any
 from trimandala.arena import Arena
 from trimandala.reporting import ReportCard
 
@@ -21,7 +21,7 @@ class GLM4Model:
 
     def __init__(
         self,
-        api_key: str = None,
+        api_key: Optional[str] = None,
         base_url: str = "https://open.bigmodel.cn/api/paas/v4/chat/completions",
     ):
         self.api_key = api_key
@@ -171,7 +171,7 @@ Provide ONLY the function code, no imports or example usage."""
         return self.call_api(messages, max_tokens=1024, temperature=0.1)
 
 
-def benchmark_track_a(arena: Arena, glm_model: GLM4Model) -> dict:
+def benchmark_track_a(arena: Arena, glm_model: Any) -> dict:
     """Benchmark GLM 4.7 on Track A (Neural Surrogate)"""
     print("\n" + "=" * 60)
     print("TRACK A: Neural Surrogate Benchmark")
@@ -187,7 +187,7 @@ def benchmark_track_a(arena: Arena, glm_model: GLM4Model) -> dict:
     return results
 
 
-def benchmark_track_b(arena: Arena, glm_model: GLM4Model) -> dict:
+def benchmark_track_b(arena: Arena, glm_model: Any) -> dict:
     """Benchmark GLM 4.7 on Track B (Code Generation)"""
     print("\n" + "=" * 60)
     print("TRACK B: Code Generation Benchmark")
