@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "model": "SimpleMLP",
+    "track": "TrackA",
+    "timestamp": "2026-01-28T23:27:37.939393",
+    "grade": "B (Good)",
+    "score_100": 57,
+    "category": "Math Sc"
+  },
+  "metrics": {
+    "track": "A",
+    "mse": 5.0767201153171163e-05,
+    "latency": 0.002905130386352539,
+    "drift": 0.00668729858964469,
+    "lyapunov": 60.936578127825676,
+    "emissions_kg": 0.0,
+    "speedup": 34.421851097602975,
+    "tes_score": 2.8950332699312527
+  }
+}

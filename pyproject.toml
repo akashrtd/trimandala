@@ -1,0 +1,35 @@
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "trimandala"
+version = "0.1.0"
+description = "Research-grade AI benchmarking framework for N-Body physics"
+readme = "README.md"
+authors = [{name = "Akash Rathod"}]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.20.0",
+    "h5py>=3.0.0",
+    "matplotlib>=3.5.0",
+    "codecarbon",  # Green AI metrics
+    "tqdm",
+    "torch>=2.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black", 
+    "isort"
+]
+viz = [
+    "seaborn"
+]
+
+[tool.scikit-build]
+cmake.version = ">=3.15"
+wheel.py-api = "cp312"
+wheel.packages = ["src/trimandala"]  # Explicitly include the package
+

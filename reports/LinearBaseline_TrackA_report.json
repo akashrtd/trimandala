@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "model": "LinearBaseline",
+    "track": "TrackA",
+    "timestamp": "2026-01-28T23:27:37.939162",
+    "grade": "A (Excellent)",
+    "score_100": 75,
+    "category": "Math Sc"
+  },
+  "metrics": {
+    "track": "A",
+    "mse": 8.482323996841554e-06,
+    "latency": 1.1205673217773438e-05,
+    "drift": 0.00364936925190518,
+    "lyapunov": -3.0942533903114214e-07,
+    "emissions_kg": 0.0,
+    "speedup": 8923.254748019519,
+    "tes_score": 3.7938115921074393
+  }
+}

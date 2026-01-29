@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "model": "SimpleMLP",
+    "track": "TrackA",
+    "timestamp": "2026-01-28T23:35:38.330528",
+    "grade": "B (Good)",
+    "score_100": 55,
+    "category": "Math Sc",
+    "details": {
+      "type": "Neural Network",
+      "Architecture": "SimpleMLP (Flattened)",
+      "Hidden Size": 512,
+      "Layers": 3,
+      "Parameters": "Adjustable",
+      "Precision": "Float32"
+    }
+  },
+  "metrics": {
+    "track": "A",
+    "mse": 5.0767201153171163e-05,
+    "latency": 0.013827085494995117,
+    "drift": 0.00668729858964469,
+    "lyapunov": 64.61888243112757,
+    "emissions_kg": 0.0,
+    "speedup": 7.232181561617932,
+    "tes_score": 2.7595202896981306
+  }
+}

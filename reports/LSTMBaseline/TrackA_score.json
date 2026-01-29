@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "model": "LSTMBaseline",
+    "track": "TrackA",
+    "timestamp": "2026-01-28T23:35:38.330722",
+    "grade": "B (Good)",
+    "score_100": 52,
+    "category": "Math Sc",
+    "details": {
+      "type": "Recurrent Neural Network",
+      "Architecture": "LSTM (Seq2Seq)",
+      "Hidden Size": 256,
+      "Layers": 2,
+      "History": "20 Steps",
+      "Precision": "Float32"
+    }
+  },
+  "metrics": {
+    "track": "A",
+    "mse": 0.00011639381407899492,
+    "latency": 0.013293981552124023,
+    "drift": 0.007366363787526491,
+    "lyapunov": 0.0,
+    "emissions_kg": 0.0,
+    "speedup": 7.52220033446807,
+    "tes_score": 2.601995754164693
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "model": "LinearBaseline",
+    "track": "TrackA",
+    "timestamp": "2026-01-28T23:35:38.330221",
+    "grade": "A (Excellent)",
+    "score_100": 76,
+    "category": "Math Sc",
+    "details": {
+      "type": "Heuristic",
+      "Algorithm": "Linear Extrapolation",
+      "Precision": "Float64",
+      "Parameters": "0"
+    }
+  },
+  "metrics": {
+    "track": "A",
+    "mse": 8.482323996841554e-06,
+    "latency": 1.0013580322265625e-05,
+    "drift": 0.00364936925190518,
+    "lyapunov": 1.170970824554182e-07,
+    "emissions_kg": 0.0,
+    "speedup": 9985.440905363545,
+    "tes_score": 3.8035803829245944
+  }
+}
