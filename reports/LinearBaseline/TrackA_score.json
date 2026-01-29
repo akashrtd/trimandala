@@ -2,7 +2,7 @@
   "metadata": {
     "model": "LinearBaseline",
     "track": "TrackA",
-    "timestamp": "2026-01-29T09:57:20.248541",
+    "timestamp": "2026-01-29T10:01:49.552874",
     "grade": "A (Excellent)",
     "score_100": 75,
     "category": "Math Sc",
@@ -16,11 +16,11 @@
   "metrics": {
     "track": "A",
     "mse": 8.482323996841554e-06,
-    "latency": 1.2159347534179688e-05,
+    "latency": 1.0967254638671875e-05,
     "drift": 0.00364936925190518,
-    "lyapunov": -4.895784630971022e-07,
+    "lyapunov": -2.171517611689564e-06,
     "emissions_kg": 0.0,
-    "speedup": 8223.449183415612,
-    "tes_score": 3.7867177363705027
+    "speedup": 9117.22086095813,
+    "tes_score": 3.7956794288662445
   }
 }

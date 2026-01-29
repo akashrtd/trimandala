@@ -2,7 +2,7 @@
   "metadata": {
     "model": "LSTMBaseline",
     "track": "TrackA",
-    "timestamp": "2026-01-29T09:57:20.249222",
+    "timestamp": "2026-01-29T10:01:49.556546",
     "grade": "B (Good)",
     "score_100": 52,
     "category": "Math Sc",
@@ -18,11 +18,11 @@
   "metrics": {
     "track": "A",
     "mse": 0.00011639381407899492,
-    "latency": 0.010580301284790039,
+    "latency": 0.01243281364440918,
     "drift": 0.007366363787526491,
     "lyapunov": 0.0,
     "emissions_kg": 0.0,
-    "speedup": 9.451525798441255,
-    "tes_score": 2.621827159873654
+    "speedup": 8.043230986715328,
+    "tes_score": 2.6078128832563583
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "model": "SimpleMLP",
     "track": "TrackA",
-    "timestamp": "2026-01-29T09:57:20.249038",
+    "timestamp": "2026-01-29T10:01:49.553175",
     "grade": "B (Good)",
     "score_100": 55,
     "category": "Math Sc",
@@ -18,11 +18,11 @@
   "metrics": {
     "track": "A",
     "mse": 5.0767201153171163e-05,
-    "latency": 0.012782812118530273,
+    "latency": 0.012720108032226562,
     "drift": 0.00668729858964469,
-    "lyapunov": 58.736960877851764,
+    "lyapunov": 60.770779611317884,
     "emissions_kg": 0.0,
-    "speedup": 7.823004144137694,
-    "tes_score": 2.76634113767395
+    "speedup": 7.8615678329996,
+    "tes_score": 2.7667682588232556
   }
 }
